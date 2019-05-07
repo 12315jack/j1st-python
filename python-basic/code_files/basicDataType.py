@@ -11,11 +11,23 @@ s = '123'
 i = int( s )
 print( i)
 
+a='520'
+
 #布尔值  --->bool类
 
 
 #字符串  --->str类
+first=1
+second=2
+third=first+second
+print(third)
 
+englishTeacher='teacher'
+mathTeacher="mathTeacher"
+ourTeacher=englishTeacher+mathTeacher
+print(ourTeacher)
+print("let's go!")
+print(r'C:\now!')
 
 #列表  --->list类
 
