@@ -7,3 +7,16 @@
     1.4、列表  --->list类
     1.5、元组  --->tuple类
     1.6、字典  --->dict类
+
+2.python保留字
+
+and	exec	not
+assert	finally	or
+break	for	pass
+class	from	print
+continue	global	raise
+def	if	return
+del	import	try
+elif	in	while
+else	is	with
+except	lambda	yield
