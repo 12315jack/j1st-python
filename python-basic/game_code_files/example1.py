@@ -5,8 +5,8 @@ import random
 
 print('---------------------happy study python------------------')
 
-guess=random.randint(1,10)
-while guess!=8:
+guess = random.randint(1, 10)
+while guess != 8:
     temp = input("猜猜用户输入的数字是多少？：")
     guess = int(temp)
     if guess == 8:
@@ -19,6 +19,5 @@ while guess!=8:
         else:
             print("猜的数字太大了")
 print("游戏结束，好无聊，拜拜")
-
 
 # builtins dir(__builtins__) BIF=build in functions 内置函数
