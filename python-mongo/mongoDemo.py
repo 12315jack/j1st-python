@@ -11,12 +11,12 @@ db_name = "smartcharger"           # 库名称
 
 """mongodb配置信息"""
 mongodb_setting = {
-    "host": "localhost:27017",   # 数据库服务器地址
-    "localThresholdMS": 30,  # 本地超时的阈值,默认是15ms,服务器超过此时间没有返回响应将会被排除在可用服务器范围之外
-    "maxPoolSize": 100,  # 最大连接池,默认100,不能设置为0,连接池用尽后,新的请求将被阻塞处于等待状态.
-    "minPoolSize": 0,  # 最小连接池,默认是0.
-    "waitQueueTimeoutMS": 30000,  # 连接池用尽后,等待空闲数据库连接的超时时间,单位毫秒. 不能太小.
-    "authSource": db_name,  # 验证数据库
+    "host": "localhost:27017",  # 数据库服务器地址
+    "localThresholdMS": 30,     # 本地超时的阈值,默认是15ms,服务器超过此时间没有返回响应将会被排除在可用服务器范围之外
+    "maxPoolSize": 100,         # 最大连接池,默认100,不能设置为0,连接池用尽后,新的请求将被阻塞处于等待状态.
+    "minPoolSize": 0,           # 最小连接池,默认是0.
+    "waitQueueTimeoutMS": 30000,# 连接池用尽后,等待空闲数据库连接的超时时间,单位毫秒. 不能太小.
+    "authSource": db_name,      # 验证数据库
     "readPreference": "primaryPreferred",  # 读偏好,优先从盘,如果是从盘优先, 那就是读写分离模式
     "username": user,       # 用户名
     "password": password    # 密码
